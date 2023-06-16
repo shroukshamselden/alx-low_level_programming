@@ -13,7 +13,7 @@ int long_li = 8;
 int flo = 4;
 
 printf("Size of a char: %d byte(s)\n", ch);
-printf("Size of a int: %d byte(s)\n", in);
+printf("Size of an int: %d byte(s)\n", in);
 printf("Size of a long int: %d byte(s)\n", long_i);
 printf("Size of a long long int: %d byte(s)\n", long_li);
 printf("Size of a float: %d byte(s)\n", flo);
