@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdio.>
 
-/* 
- * main entry pointy
-*/
-
+/*
+ * main - Entry point
+ * description : check if the number negative or postive
+ * Return always (0)
+ */
 int main(void)
 {
 	int n;
