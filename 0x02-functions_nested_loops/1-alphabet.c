@@ -1,18 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
- * Describtion : print letters from a to z
- * Return: always 0
+ * print_alphabet - prints letters in lowwer case
+ * describtion: print from a to z)
  */
-
-int main(void)
+void print_alphabet(void)
 {
 char alpha = 'a';
 while (alpha <= 'z')
 {
-putchar(alpha);
+_putchar(alpha);
 alpha++;
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
