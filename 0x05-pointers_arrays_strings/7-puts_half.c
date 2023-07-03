@@ -2,31 +2,26 @@
 /**
  * puts_half - prints half of a string, followed by a new line
  * @str: input
- * Return: 0
+ * Return: half of input
  */
 void puts_half(char *str)
 {
 int len;
-char *p = str;
+int n;
 int start;
 
-while
-	(*p != '\0')
-	{
-		len++;
-		p++;
-	}
-start = len / 2;
+for (n = 0; str[n] != '\0'; n++)
+	len++;
+start = (len / 2);
 if
 	(len % 2 == 1)
 	{
-	start++;
+	start = ((len + 1) / 2);
 	}
-while
-	(str[start] != '\0')
+for
+	(n = start; str[n] != '\0'; n++)
 	{
-		_putchar(str[start]);
-		start++;
+		_putchar(str[n]);
 	}
 _putchar('\n');
 }
