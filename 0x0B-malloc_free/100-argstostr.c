@@ -15,13 +15,13 @@ int i;
 char *str;
 int len;
 
-if (ac == 0 || av == 0)
+if (ac == 0 || av == NULL)
 	return (NULL);
 total_len = 0;
 for (i = 0; i < ac; i++)
-	total_len += strlen(av[i]) + 1;
+	total_len += strlen(av[i]);
 
-str = (char *)malloc(total_len *sizeof(char));
+str = (char *)malloc((total_len + ac) * sizeof(char));
 if (str == NULL)
 	return (NULL);
 
