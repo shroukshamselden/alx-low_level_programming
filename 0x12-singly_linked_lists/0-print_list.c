@@ -12,7 +12,7 @@ size_t count = 0;
 
 while (h != NULL)
 {
-	printf("[%d] %s\n", h->len, h->str != NULL ? : "(nill)");
+	printf("[%d] %s\n", h->len, h->str != NULL ? h->str : "(nill)");
 	h = h->next;
 	count++;
 }
