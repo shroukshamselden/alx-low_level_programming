@@ -4,7 +4,7 @@
 /**
  * clear_bit - sets the value of bit to 0
  * @n: pointer of number
- * @index: index 
+ * @index: index
  * Return: 1 for success, -1 for failure
  */
 int clear_bit(unsigned long int *n, unsigned int index)
