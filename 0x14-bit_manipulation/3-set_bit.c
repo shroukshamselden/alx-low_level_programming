@@ -3,7 +3,7 @@
 /**
  * set_bit - sets a bit at  1
  * @n: pointer
- * @index: index 
+ * @index: index
  * Return: 1 for success, -1 for failure
  */
 int set_bit(unsigned long int *n, unsigned int index)
